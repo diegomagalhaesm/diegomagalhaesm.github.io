@@ -56,8 +56,8 @@ footer {
 .projects {
   display: flex;
   flex-wrap: wrap;      /* Permite quebrar linha em telas pequenas */
-  gap: 24px;            /* Espaço entre os cards */
-  box-shadow: #4b5563;
+  gap: 30px;            /* Espaço entre os cards */
+  box-shadow: 0 4px 12px #4b5563;
 }
 
 .project-card {
