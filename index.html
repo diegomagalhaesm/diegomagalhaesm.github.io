@@ -60,6 +60,39 @@
       font-size: 0.9rem;
       margin-top: 48px;
     }
+
+    .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.project-card a {
+  margin-top: 16px;
+  align-self: flex-start;
+}
+
   </style>
 </head>
 
@@ -91,6 +124,45 @@
         Acessar Dashboards
       </a>
     </div>
+
+    <div class="card">
+  <h2>Projetos em Destaque</h2>
+
+  <div class="projects">
+
+    <div class="project-card">
+      <h3>MasterChef Brasil — Instagram</h3>
+      <p>
+        Análise de engajamento e crescimento de audiência no Instagram do MasterChef Brasil.
+      </p>
+      <a class="button" href="https://diegomagalhaesm.github.io/dashboards/Instagram%20Masterchef/">
+        Ver dashboard
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>Market Share — Marcas de Café</h3>
+      <p>
+        Visualização de participação de mercado e posicionamento de marcas no Brasil.
+      </p>
+      <a class="button" href="https://public.tableau.com/app/profile/diegomagalhaesm/viz/CoffeeBrandsMarketShareinBrasil/Histria1">
+        Ver dashboard
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>MasterChef Brasil — Twitter</h3>
+      <p>
+        Análise de volume, engajamento e comportamento de tweets relacionados ao programa.
+      </p>
+      <a class="button" href="https://public.tableau.com/app/profile/diegomagalhaesm/viz/Masterchefbr_dash_twt/Dashboard2">
+        Ver dashboard
+      </a>
+    </div>
+
+  </div>
+</div>
+
 
     <div class="card">
       <h2>Contato</h2>
