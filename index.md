@@ -1,4 +1,3 @@
-# Diego Magalhães
 
 Analista de Dados / Business Intelligence  
 Formação em Administração | Experiência em e-commerce e tradução
