@@ -63,4 +63,6 @@ footer {
 
 .project-card {
   flex: 1 1 250px;      /* Cresce, encolhe, mínimo 250px */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.04);
+  border-radius: 12px
 }
