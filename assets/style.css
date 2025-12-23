@@ -59,6 +59,6 @@ footer {
   gap: 24px;            /* Espaço entre os cards */
 }
 
-.projects .project-card {
+.projects .card {
   flex: 1 1 250px;      /* Cresce, encolhe, largura mínima 250px */
 }
