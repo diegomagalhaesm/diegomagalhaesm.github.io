@@ -53,7 +53,7 @@ footer {
   margin-top: 48px;
 }
 
-.project-card {
+.projects {
   display: flex;
   flex-wrap: wrap;      /* Faz os cards quebrarem para a próxima linha se não couberem */
   gap: 24px;            /* Espaço entre os cards */
