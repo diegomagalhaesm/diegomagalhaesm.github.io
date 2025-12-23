@@ -52,3 +52,13 @@ footer {
   font-size: 0.9rem;
   margin-top: 48px;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;      /* Faz os cards quebrarem para a próxima linha se não couberem */
+  gap: 24px;            /* Espaço entre os cards */
+}
+
+.projects .card {
+  flex: 1 1 250px;      /* Cresce, encolhe, largura mínima 250px */
+}
