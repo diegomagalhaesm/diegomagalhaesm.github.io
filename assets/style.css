@@ -57,12 +57,11 @@ footer {
   display: flex;
   flex-wrap: wrap;      /* Permite quebrar linha em telas pequenas */
   gap: 30px;            /* Espaço entre os cards */
-  box-shadow: 0 4px 12px #4b5563;
-  border-radius: 12px;
+  
 }
 
 .project-card {
   flex: 1 1 250px;      /* Cresce, encolhe, mínimo 250px */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.04);
+  box-shadow: 0 10px 20px #4b5563;
   border-radius: 12px
 }
