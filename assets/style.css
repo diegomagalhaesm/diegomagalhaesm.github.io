@@ -64,4 +64,5 @@ footer {
   flex: 1 1 250px;      /* Cresce, encolhe, mínimo 250px */
   box-shadow: 0 10px 20px #4b5563;
   border-radius: 12px
+  padding: 20px 20px;
 }
